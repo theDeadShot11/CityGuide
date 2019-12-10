@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#460452"
+    tools:context=".RELIGIOUS_PLACES">
+
+    <TextView
+        android:id="@+id/rptextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="RELIGIOUS PLACES"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/temples"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rptextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="TEMPLES"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/mosques"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temples"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="MOSQUES"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/churches"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mosques"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="CHURCHES"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+
+
+</RelativeLayout>

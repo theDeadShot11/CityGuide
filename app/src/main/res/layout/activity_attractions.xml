@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#460452"
+    tools:context=".ATTRACTIONS">
+
+    <TextView
+        android:id="@+id/attextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ATTRACTIONS"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/gardens"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/attextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="GARDENS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/museums"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gardens"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="MUSEUMS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/histoplaces"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/museums"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="HISTORICAL PLACES"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/zoo"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/histoplaces"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="ZOO"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/artgallery"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zoo"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="ART GALLERY"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+
+</RelativeLayout>

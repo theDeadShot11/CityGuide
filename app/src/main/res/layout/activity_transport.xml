@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#460452"
+    tools:context=".TRANSPORT">
+
+    <TextView
+        android:id="@+id/ttextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TRANSPORT"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/bustops"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ttextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="BUS STOPS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/rail"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bustops"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="RAILWAY STATION"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/airport"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rail"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="AIRPORTS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/ports"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/airport"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="PORTS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+
+
+
+</RelativeLayout>

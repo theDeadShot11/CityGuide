@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#460452"
+    tools:context=".ENTERTAINMENT">
+
+    <TextView
+        android:id="@+id/entextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ENTERTAINMENT"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/malls"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="MALLS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/theaters"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/malls"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="THEATERS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/restaurants"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theaters"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="RESTAURANTS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/amusements"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/restaurants"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="AMUSEMENT PARKS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/cafes"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amusements"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="CAFES"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#460452"
+    tools:context=".BASIC_AMENITIES">
+
+    <TextView
+        android:id="@+id/batextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="BASIC AMENITIES"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/pp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/batextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="PETROL PUMPS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/schools"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="SCHOOLS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/colleges"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schools"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="COLLEGES"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/markets"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/colleges"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="MARKETS"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/orphanage"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/markets"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="ORPHANAGE"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/oah"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orphanage"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="OLD AGE HOMES"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/accomadation"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oah"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="ACCOMMODATION"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+</RelativeLayout>
